@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <h1>无内鬼，来点广告</h1>
+    <select id="Type">
+        <option value="Mihomo">米哈游</option>
+        <option value="PicACG">PicACG</option>
+        <option value="SDK">穿山甲</option>
+    </select>
+    <select id="Location">
+        <option value="Top">顶部（横幅）</option>
+        <option value="Bottom">底部（固定）</option>
+        <option value="Left">左侧（菜单）</option>
+        <option value="Right">右侧（目录）</option>
+        <option value="Center">中间（随机）</option> <div id="adContainer" style="position: relative; width: 100%; height: 100vh;"></div>
+    </select>
+    <button onclick="AdGenerator()">添加广告</button>
+    <div id="adContainer" style="position: relative; width: 100%; height: 100vh;"></div>
+</body>
+</html>
